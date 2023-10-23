@@ -13,6 +13,10 @@ module.exports = {
   rules: {
     'linebreak-style': 0,
     'strict': 0,
-    "quotes": ["error", "double"],
+    "quotes": ["error", "single"],
+    "no-alert": 0,
+    "no-console": 0,
+    "one-var": 0,
+    "no-plusplus": 0,
   },
 };

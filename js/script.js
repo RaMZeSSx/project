@@ -42,9 +42,9 @@ function detectPersonalLevel() {
   } else if (personalMovieDB.count < 31) {
     console.log('Вы классический зритель');
   } else if (personalMovieDB.count > 30) {
-    console.log('Вы киноман')
+    console.log('Вы киноман');
   } else {
-    console.log('Ошибка')
+    console.log('Ошибка');
   }
 }
 

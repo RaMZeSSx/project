@@ -1,4 +1,7 @@
 module.exports = {
+    plugins: [
+        // '@stylistic'
+    ],
     env: {
         browser: true,
         es2021: true,
@@ -10,6 +13,7 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 'latest',
     },
+
     rules: {
         'linebreak-style': 0,
         'strict': 0,
@@ -20,5 +24,6 @@ module.exports = {
         "no-plusplus": 0,
         "indent": ["error", 4],
         "max-len": 0,
+        // '@stylistic/indent': ['error', 2],
     },
 };
